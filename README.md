@@ -57,14 +57,14 @@
         <div class="product">
             <img src="challenge-grease.jpg" width="180" alt="Challenge Grease 3oz">
             <h3>Challenge Grease 3oz</h3>
-            <p><strong>$29.99</strong></p>
+            <p><strong>$8.00</strong></p>
             <button onclick="addToCart('Challenge Grease 3oz', 29.99)">Add to Cart</button>
         </div>
 
         <div class="product">
             <img src="challenge-grease-2.jpg" width="180" alt="2x Challenge Grease">
             <h3>2x Challenge Grease 3oz</h3>
-            <p><strong>$49.99</strong></p>
+            <p><strong>$15.00</strong></p>
             <button onclick="addToCart('2x Challenge Grease 3oz', 49.99)">Add to Cart</button>
         </div>
     </div>
