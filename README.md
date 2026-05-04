@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +13,7 @@
         h1 { 
             text-align: center; 
             color: #333; 
-            margin-bottom: 30px;
+            margin-bottom: 10px;
         }
         .products {
             text-align: center;
@@ -48,9 +47,25 @@
             margin-left: auto;
             margin-right: auto;
         }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+        }
+        .social a {
+            margin: 0 12px;
+        }
     </style>
 </head>
 <body>
+
+    <!-- Logo Section -->
+    <div style="text-align: center; margin-bottom: 15px;">
+        <img src="logo.png" alt="Challenge Grease Logo" width="160">
+    </div>
+
     <h1>Challenge Grease Shop</h1>
 
     <div class="products">
@@ -58,14 +73,14 @@
             <img src="challenge-grease.jpg" width="180" alt="Challenge Grease 3oz">
             <h3>Challenge Grease 3oz</h3>
             <p><strong>$8.00</strong></p>
-            <button onclick="addToCart('Challenge Grease 3oz', 29.99)">Add to Cart</button>
+            <button onclick="addToCart('Challenge Grease 3oz', 8.00)">Add to Cart</button>
         </div>
 
         <div class="product">
             <img src="challenge-grease-2.jpg" width="180" alt="2x Challenge Grease">
             <h3>2x Challenge Grease 3oz</h3>
             <p><strong>$15.00</strong></p>
-            <button onclick="addToCart('2x Challenge Grease 3oz', 49.99)">Add to Cart</button>
+            <button onclick="addToCart('2x Challenge Grease 3oz', 15.00)">Add to Cart</button>
         </div>
     </div>
 
@@ -94,6 +109,25 @@
         <p>Order Number: <strong>#GC-748291</strong></p>
         <p>Status: <strong>Shipped - Expected delivery in 3-5 days</strong></p>
         <button onclick="alert('Tracking link opened in new tab')">Track Package</button>
+    </div>
+
+    <div class="footer">
+        <h2>Contact Us</h2>
+        <div class="social">
+            <a href="https://instagram.com/yourusername" target="_blank">
+                <img src="instagram-logo.png" width="45" alt="Instagram">
+            </a>
+            <a href="https://tiktok.com/@yourusername" target="_blank">
+                <img src="tiktok-logo.png" width="45" alt="TikTok">
+            </a>
+            <a href="https://facebook.com/yourpage" target="_blank">
+                <img src="facebook-logo.png" width="45" alt="Facebook">
+            </a>
+            <a href="mailto:your.email@gmail.com">
+                <img src="gmail-logo.png" width="45" alt="Email">
+            </a>
+        </div>
+        <p style="margin-top:15px;">Follow us for updates & promotions</p>
     </div>
 
     <script>
