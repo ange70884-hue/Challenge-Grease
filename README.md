@@ -120,8 +120,8 @@ Challenge Grease is made from 100% natural ingredients sourced from Ivory Coast 
 
 <input type="text" id="zip" placeholder="Zip Code" style="display:block; margin:8px 0; padding:10px; width:100%;"><br>
  <div style="margin: 15px 0; text-align: center;">
-            <img src="visa-logo.png" width="60" style="margin: 0 10px;">
-            <img src="mastercard-logo.png" width="60" style="margin: 0 10px;">
+            <img src="visa-logo.jpg" width="60" style="margin: 0 10px;">
+            <img src="mastercard-logo.jpg" width="60" style="margin: 0 10px;">
         </div>
 <button onclick="completeOrder()">Place Order</button>
 </div>
