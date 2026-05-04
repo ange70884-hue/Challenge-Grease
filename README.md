@@ -68,14 +68,14 @@ border-radius: 12px;
 
 <!-- Logo Section -->
 <div style="text-align: center; margin-bottom: 15px;">
-<img src="logo.png" alt="Challenge Grease Logo" width="160">
+<img src="logo.png.png" alt="Challenge Grease Logo" width="160">
 </div>
 
 <h1>Challenge Grease Shop</h1>
 
 <div class="products">
 <div class="product">
-<img src="challenge-grease.jpg" width="180" alt="Challenge Grease 3oz">
+<img src="challenge-grease.jpg.png" width="180" alt="Challenge Grease 3oz">
 <h3>Challenge Grease 3oz</h3>
 <p><strong>$8.00</strong></p>
 <p class="description">
@@ -85,7 +85,7 @@ Challenge Grease is made from 100% natural ingredients sourced from Ivory Coast 
 </div>
 
 <div class="product">
-<img src="challenge-grease-2.jpg" width="180" alt="2x Challenge Grease">
+<img src="challenge-grease-2.jpg.png" width="180" alt="2x Challenge Grease">
 <h3>2x Challenge Grease 3oz</h3>
 <p><strong>$15.00</strong></p>
 <p class="description">
